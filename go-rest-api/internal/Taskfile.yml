@@ -19,10 +19,10 @@ tasks:
     swagger.validate:
         desc: Validate swagger
         cmds:
-        - swagger validate pkg/swagger/swagger.yml
+        - swagger validate ../pkg/swagger/swagger.yml
 
     swagger.doc:
         desc: Doc for swagger
         cmds:
-        - docker run -i yousan/swagger-yaml-to-html < pkg/swagger/ > doc/index.html
+        - sudo docker run -i yousan/swagger-yaml-to-html < ../pkg/swagger/swagger.yml > ../doc/index.html
         
