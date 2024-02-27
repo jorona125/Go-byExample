@@ -1,4 +1,4 @@
-module github.com/jorona125/Go-byExample/go-gopher-cli
+module github.com/jorona125/Go-byExample/go-gopher-cli/
 
 go 1.21.2
 
