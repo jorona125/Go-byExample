@@ -4,7 +4,7 @@ tasks:
     build:
         desc: Build the app
         cmds:
-        - GOFLAGS=-mod=mod go build -o /gopher-cli main.go 
+        - GOFLAGS=-mod=mod go build -o ../gopher-cli main.go 
 
     run: 
         desc: Run the app

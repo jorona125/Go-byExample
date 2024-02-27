@@ -1,6 +1,8 @@
-module github.com/jorona125/Go-byExample/go-gopher-cli/
+module github.com/jorona125/Go-byExample/go-gopher-cli
 
 go 1.21.2
+
+require github.com/spf13/cobra v1.8.0
 
 require (
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
@@ -11,7 +13,6 @@ require (
 	github.com/pelletier/go-toml v1.9.3 // indirect
 	github.com/spf13/afero v1.6.0 // indirect
 	github.com/spf13/cast v1.3.1 // indirect
-	github.com/spf13/cobra v1.8.0 // indirect
 	github.com/spf13/jwalterweatherman v1.1.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/spf13/viper v1.8.1 // indirect
