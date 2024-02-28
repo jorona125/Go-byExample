@@ -6,6 +6,11 @@ tasks:
         cmds:
         - GOFLAGS=-mod=mod go build -o bin/gopher-bot-discord main.go 
 
+    setup:
+        desc: Set bot Token
+        cmds:
+        - export BOT_TOKEN=<YOUR_BOT_TOKEN>
+
     run: 
         desc: Run the app
         cmds:
