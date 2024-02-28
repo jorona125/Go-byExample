@@ -7,7 +7,7 @@ import (
 	"runtime/volatile"
 	"unsafe"
 
-	"github.com/jorona125/Go-byExample/go-gba/fonts"
+	"github.com/scraly/learning-go-by-examples/go-gopher-gba/fonts"
 	"tinygo.org/x/tinydraw"
 	"tinygo.org/x/tinyfont"
 )
@@ -71,6 +71,7 @@ func main() {
 	for {
 	}
 }
+
 func drawGophers() {
 
 	// Display a textual message "Gopher" with Google colors
@@ -130,7 +131,7 @@ func update(interrupt.Interrupt) {
 		clearScreen()
 		y = y - 10
 		tinyfont.DrawChar(display, &fonts.Regular58pt, x, y, 'B', green)
-	// Gopher jump
+	//Gopher jump
 	case keyA:
 		// Clear display
 		clearScreen()

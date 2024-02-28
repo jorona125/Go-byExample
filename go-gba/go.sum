@@ -9,6 +9,8 @@ github.com/kr/pretty v0.2.1/go.mod h1:ipq/a2n7PKx3OHsz4KJII5eveXtPO4qwEXGdVfWzfn
 github.com/kr/pty v1.1.1/go.mod h1:pFQYn66WHrOpPYNljwOMqo10TkYh1fy3cYio2l3bCsQ=
 github.com/kr/text v0.1.0/go.mod h1:4Jbv+DJW3UT/LiOwJeYQe1efqtUx/iVham/4vfdArNI=
 github.com/sago35/go-bdf v0.0.0-20200313142241-6c17821c91c4/go.mod h1:rOebXGuMLsXhZAC6mF/TjxONsm45498ZyzVhel++6KM=
+github.com/scraly/learning-go-by-examples/go-gopher-gba v0.0.0-20230716184820-63bc84c0f905 h1:Xc9eB6wiO/Bmn7hPtR+QVQhzhyg9Np7xMpFdGaOvA9s=
+github.com/scraly/learning-go-by-examples/go-gopher-gba v0.0.0-20230716184820-63bc84c0f905/go.mod h1:dDJxKyBD//eUSzThG+zZWpKiluEqE3k3bLwwNPqgmYc=
 github.com/valyala/fastjson v1.6.3/go.mod h1:CLCAqky6SMuOcxStkYQvblddUtoRxhYMGLrsQns1aXY=
 golang.org/x/image v0.0.0-20210628002857-a66eb6448b8d/go.mod h1:023OzeP/+EPmXeapQh35lcL3II3LrY8Ic+EFFKVhULM=
 golang.org/x/net v0.0.0-20210614182718-04defd469f4e/go.mod h1:9nx3DQGgdP8bBQD5qxJ1jj9UTztislL4KSBs9R2vV5Y=
@@ -21,9 +23,11 @@ golang.org/x/xerrors v0.0.0-20191204190536-9bdfabe68543/go.mod h1:I/5z698sn9Ka8T
 tinygo.org/x/drivers v0.14.0/go.mod h1:uT2svMq3EpBZpKkGO+NQHjxjGf1f42ra4OnMMwQL2aI=
 tinygo.org/x/drivers v0.15.1/go.mod h1:uT2svMq3EpBZpKkGO+NQHjxjGf1f42ra4OnMMwQL2aI=
 tinygo.org/x/drivers v0.16.0/go.mod h1:uT2svMq3EpBZpKkGO+NQHjxjGf1f42ra4OnMMwQL2aI=
+tinygo.org/x/drivers v0.17.1/go.mod h1:+uFfVgSjxRPqsnalFrcQse/Tmhoxwl9AJmJIVuRbuRo=
 tinygo.org/x/drivers v0.19.0/go.mod h1:uJD/l1qWzxzLx+vcxaW0eY464N5RAgFi1zTVzASFdqI=
 tinygo.org/x/drivers v0.25.0 h1:MFnec5lY8Sxk1bIfqQWsflIbxcpAFbohWhg/qZ7psdM=
 tinygo.org/x/drivers v0.25.0/go.mod h1:v+mXaA4cgpz/YZJ3ZPm/86bYQJAXTaYtMkHlVwbodbw=
+tinygo.org/x/tinydraw v0.0.0-20200416172542-c30d6d84353c/go.mod h1:ygmD8mKwhhF6HLXIs4FCe5JTYurTD2w32cmymeaYrEw=
 tinygo.org/x/tinydraw v0.4.0 h1:U9V0mHz8/jPShKjlh199vCfq1ARFyUOD1b+FfqIwV8c=
 tinygo.org/x/tinydraw v0.4.0/go.mod h1:WCV/EMljTv8w04iAxjv+fRD6/4ffx0afATYeJlN90Yo=
 tinygo.org/x/tinyfont v0.2.1/go.mod h1:eLqnYSrFRjt5STxWaMeOWJTzrKhXqpWw7nU3bPfKOAM=
